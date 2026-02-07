@@ -20,7 +20,6 @@ while i < 101:
     # assign variables to simplify match
     div3 = (i % 3 == 0)
     div5 = (i % 5 == 0)
-    div15 = (div3 and div5)
 
     
     # use a match to avoid nested if statements
@@ -51,7 +50,6 @@ while i < 101:
     # assign variables to simplify match
     div3 = (i % 3 == 0)
     div5 = (i % 5 == 0)
-    div15 = (div3 and div5)
 
     # use a match to avoid nested if statements
     match (div3, div5) :
