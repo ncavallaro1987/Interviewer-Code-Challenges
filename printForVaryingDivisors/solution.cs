@@ -64,7 +64,7 @@ public class Program
 
 
         //using a container
-        //initialize string
+        //initialize list
         List<string> lstMessage = new List<string>();
         for (int i = 1; i < 101; i++)
         {
