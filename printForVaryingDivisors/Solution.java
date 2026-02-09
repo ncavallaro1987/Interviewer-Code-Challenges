@@ -107,7 +107,7 @@ class Main {
         System.out.println("");
         System.out.println("");
 
-        System.out.println("The output of System.out.println(String.Join(\", \", lstMessage)) is:");
+        System.out.println("The output of System.out.println(String.join(\", \", lstMessage)) is:");
         System.out.println(String.join(", ", lstMessage));
 	}
 }
